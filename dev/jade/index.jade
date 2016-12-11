@@ -1,0 +1,101 @@
+//
+   Created by User on 11.12.2016.
+
+doctype html
+html
+    head
+        title. Hi, this is my preview-project. Here I show how I use gulp, scss, jade and yandex-bem methodology to build simple landing-page template from PSD
+        meta(http-equiv="content-language" content="Ru-ru")
+        meta(http-equiv="content-type" content="text/html" charset="UTF-8")
+        meta(name="robots" content="noindex, nofollow")
+        meta(name="googlebot" content="noarchive")
+        meta(name="author" content="www.kolycheva.com")
+        link(rel="stylesheet" href="css/style.css")
+    body
+        header
+            .content
+                span.header_logo
+                    | Freeancer<span class="black">.</span>
+                div.header_social-links
+                    a.twitter.fa.fa-twitter.pink
+                    a.facebook.fa.fa-facebook.pink
+                nav
+                    ul
+                        li About
+                        li Work
+                        li Portfolio
+                        li Contact
+        section.introducion
+            .content
+                hgroup
+                    h1
+                        | Intelligence is nothing without ambition<span class="pink">.</span>
+                    h5 We’re small but impressive creative agency.
+                button Read more
+        section.snippets
+            .content
+                .column-33
+                    h3
+                        | Peace of mind<span class="pink">.</span>
+                    p You’re safe with us. The privacy and security of your financial information is our top priority.
+                    a.pink.link-more More &rarr;
+                .column-33
+                    h3
+                        | Free<span class="pink">.</span> Actually free<span class="pink">.</span>
+                    p No more pricing grids. No more fine print. Sending and receiving cash is free without gimmicks.
+                    a.pink.link-more More &rarr;
+                .column-33
+                    h3
+                        | Simple payments<span class="pink">.</span>
+                    p The same debit card you use to buy coffee lets deposit money straight to your bank account.
+                    a.pink.link-more More &rarr;
+        section.portfolio
+            .content
+                .column-50.portfolio--bg
+
+                .column-50
+                    hgroup
+                        h2
+                            | Portfolio<span class="pink">.</span>
+                        h5 We are small, but strong team
+                        p.
+                            No more pricing grids. No more fine print.Sending and receiving cash is free without gimmicks.
+                            The same debit card you use to buy coffee lets deposit money straight to your bank account.
+                        a.pink.link-more More &rarr;
+        section.our-team
+            .content
+                hgroup
+                    h3
+                        | Our team<span class="pink">.</span>
+                    h5 They are big but still friendly
+                .column-33
+                     img.out-team_photo.float-left(src="files/img/joey.png")
+                     .our-team_desctiption.float-right
+                        h4 Joey
+                        h6.pink.font-normal Web developer
+                        p Coffee lover.  Always on bike. iPhone fan.
+                .column-33
+                     img.out-team_photo.float-left(src="files/img/matt.png")
+                     .our-team_desctiption.float-right
+                        h4 Matt
+                        h6.pink.font-normal Web designer
+                        p MTB Biker. Photoshop Master. Loving Father.
+                .column-33
+                     img.out-team_photo.float-left(src="files/img/mike.png")
+                     .our-team_desctiption.float-right
+                        h4 Mike
+                        h6.pink.font-normal Copywriter
+                        p Drummer. Soup lover. Beer Drinker. Cyclist.
+                a.pink.link-more.float-right More &rarr;
+        footer
+            .content
+                hr.page-separator
+                .footer_social-links.float-left
+                    a.twitter.fa.fa-twitter.gray
+                    a.instagram.fa.fa-instagram.gray
+                    a.facebook.fa.fa-facebook.gray
+                    a.google-plus.fa.fa-google-plus.gray
+                .copyright.gray.float-right
+                    | © Freelancer - Designed by Wojtek Kwiatkowski
+    script(src="js/jquery.min.js")
+    script(src="https://use.fontawesome.com/5092e262aa.js")

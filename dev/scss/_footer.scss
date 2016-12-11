@@ -1,0 +1,30 @@
+footer {
+  height: 35px;
+
+  .content {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+hr.page-separator {
+  border: 1px solid $gray;
+}
+.footer_social-links {
+  height: 30px;
+  line-height: 30px;
+  a {
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    &:first-child {
+      padding-left: 0;
+    }
+    &:hover {
+      color: $gray - 50;
+    }
+  }
+}
+.copyright {
+  font-size: 13px;
+  line-height: 30px;
+}

@@ -1,0 +1,19 @@
+$pink: #fa5c65;
+$black: #222;
+$gray: #ccc;
+
+.pink {color: $pink;}
+.black {color: $black;}
+.gray {color: $gray;}
+
+
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}

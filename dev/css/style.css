@@ -1,0 +1,222 @@
+@import url(../css/normalize.css);
+.pink {
+  color: #fa5c65; }
+
+.black {
+  color: #222; }
+
+.gray {
+  color: #ccc; }
+
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2; }
+  header .content {
+    padding-top: 0;
+    padding-bottom: 0; }
+  header nav {
+    float: right;
+    height: 55px;
+    line-height: 55px;
+    display: inline-block; }
+  header ul {
+    list-style-type: none;
+    margin: 0; }
+  header li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    text-transform: uppercase; }
+    header li:hover {
+      color: #868686; }
+
+.header_logo {
+  float: left;
+  background-color: #fa5c65;
+  -webkit-border-bottom-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+  height: 55px;
+  display: block;
+  color: #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold; }
+
+.header_social-links {
+  float: right;
+  height: 55px;
+  line-height: 55px;
+  display: inline-block; }
+  .header_social-links a {
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer; }
+    .header_social-links a:hover {
+      color: #ff8e97; }
+
+footer {
+  height: 35px; }
+  footer .content {
+    padding-top: 0;
+    padding-bottom: 0; }
+
+hr.page-separator {
+  border: 1px solid #ccc; }
+
+.footer_social-links {
+  height: 30px;
+  line-height: 30px; }
+  .footer_social-links a {
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer; }
+    .footer_social-links a:first-child {
+      padding-left: 0; }
+    .footer_social-links a:hover {
+      color: #9a9a9a; }
+
+.copyright {
+  font-size: 13px;
+  line-height: 30px; }
+
+html {
+  min-height: 100%; }
+
+body {
+  background: #ffffff;
+  min-height: 100%;
+  color: #222;
+  font-family: 'Arial', sans-serif; }
+
+section {
+  width: 100%; }
+
+h1 {
+  font-size: 50px;
+  margin: 0; }
+
+h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  margin: 0; }
+
+h3 {
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+h4 {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-transform: uppercase; }
+
+h5 {
+  font-size: 19px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: normal; }
+
+h6 {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-size: 17px;
+  font-weight: normal; }
+
+p {
+  line-height: 25px; }
+
+.float-right {
+  float: right; }
+
+.float-left {
+  float: left; }
+
+.content {
+  width: 960px;
+  padding: 40px 10px;
+  margin: 0 auto; }
+  .content:before, .content:after {
+    content: "";
+    display: table; }
+  .content:after {
+    clear: both; }
+
+.column-33 {
+  width: 33.333%;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px; }
+  .column-33:first-child {
+    padding-left: 0; }
+  .column-33:last-child {
+    padding-right: 0; }
+
+.column-50 {
+  width: 50%;
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  height: 260px; }
+  .column-50:first-child {
+    padding-left: 0; }
+  .column-50:last-child {
+    padding-right: 0; }
+
+section.introducion {
+  height: 1080px;
+  background: url("../files/img/freelancer.jpg") 0 0 no-repeat;
+  background-size: cover; }
+  section.introducion hgroup {
+    margin-top: 350px;
+    width: 380px;
+    opacity: .8; }
+  section.introducion h5 {
+    font-weight: normal; }
+  section.introducion button {
+    background-color: #fa5c65;
+    padding: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
+    border: solid 3px transparent;
+    outline: none;
+    -webkit-transition: all ease-in .3s;
+    transition: all ease-in .3s; }
+    section.introducion button:hover {
+      background-color: transparent;
+      border: solid 3px #fa5c65;
+      color: #222; }
+
+.portfolio--bg {
+  background: url("../files/img/monitor.png") left center no-repeat;
+  background-size: 330px; }
+
+.our-team_desctiption {
+  width: -webkit-calc(100% - 128px);
+  width: calc(100% - 128px);
+  padding-left: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+  .our-team_desctiption p {
+    margin-top: 5px; }
+
+.link-more {
+  text-transform: uppercase;
+  color: #fa5c65;
+  cursor: pointer; }
+  .link-more:hover {
+    color: #ff8e97; }

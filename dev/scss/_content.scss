@@ -1,0 +1,148 @@
+html {
+  min-height: 100%;
+}
+body {
+  background: #ffffff;
+  min-height: 100%;
+  color: $black;
+  font-family: 'Arial', sans-serif;
+}
+section {
+  width: 100%;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  margin: 0;
+}
+h3 {
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h4 {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+h5 {
+  font-size: 19px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+h6 {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-size: 17px;
+  font-weight: normal;
+}
+p {
+  line-height: 25px;
+}
+
+.float-right {float: right;}
+.float-left {float: left;}
+
+.content {
+  width: 960px;
+  padding: 40px 10px;
+  margin: 0 auto;
+  @include clearfix();
+}
+.column-33 {
+  width: 33.333%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+
+  &:first-child {
+    padding-left: 0;
+  }
+  &:last-child {
+    padding-right: 0;
+  }
+}
+.column-50 {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 260px;
+
+  &:first-child {
+    padding-left: 0;
+  }
+  &:last-child {
+    padding-right: 0;
+  }
+}
+
+section.introducion {
+  height: 1080px;
+  background: url('../files/img/freelancer.jpg') 0 0 no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+
+  hgroup {
+    margin-top: 350px;
+    width: 380px;
+    opacity: .8;
+  }
+  h5 {
+    font-weight: normal;
+  }
+  button {
+    background-color: $pink;
+    padding: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 3px;
+    border: solid 3px transparent;
+    outline: none;
+    transition: all ease-in .3s;
+
+    &:hover {
+      background-color: transparent;
+      border: solid 3px $pink;
+      color: $black;
+    }
+
+  }
+}
+section.snippets{}
+section.portfolio{}
+.portfolio--bg {
+  background: url("../files/img/monitor.png") left center no-repeat;
+  -webkit-background-size: 330px;
+  background-size: 330px;
+}
+section.our-team {}
+
+.out-team_photo{}
+.our-team_desctiption{
+  width: calc(100% - 128px);
+  padding-left: 10px;
+  box-sizing: border-box;
+
+  p {
+    margin-top: 5px;
+  }
+}
+
+.link-more {
+  text-transform: uppercase;
+  color: $pink;
+  cursor: pointer;
+
+  &:hover {
+    color: $pink + 50;
+  }
+}
