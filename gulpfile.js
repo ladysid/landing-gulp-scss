@@ -38,7 +38,9 @@ gulp.task('scss', function(){
 
 gulp.task('jade', function(){
     return gulp.src('dev/jade/**/*.jade')
-        .pipe(jade())
+        .pipe(jade({
+            pretty: true
+        }))
         .pipe(gulp.dest('dev/'))
         .pipe(browserSync.reload({stream: true}));
 
